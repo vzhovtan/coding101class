@@ -3,13 +3,13 @@
 // Write a program which takes an array of integers, where array[i] denotes the maximum you can advance from index,
 // and returns whether it is possible to advance to the last index starting from the beginning of the array
 
-package main
+package coding101class
 
 import (
 	"fmt"
 )
 
-func main() {
+func bcd() {
 	arr1 := []int{2, 4, 1, 1, 0, 1, 3}
 	arr2 := []int{2, 4, 1, 1, 0, 2, 3}
 	fmt.Println(advance(arr1)) // true

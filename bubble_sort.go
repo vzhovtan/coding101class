@@ -1,4 +1,4 @@
-package main
+package coding101class
 
 import (
 	"fmt"
@@ -18,7 +18,7 @@ func bubble(inp []int) {
 	}
 }
 
-func main() {
+func cde() {
 	arr := []int{1, 9, 2, 8, 3, 7, 4, 6, 5}
 	fmt.Println(arr)
 	bubble(arr)

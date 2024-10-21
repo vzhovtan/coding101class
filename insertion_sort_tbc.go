@@ -1,4 +1,4 @@
-package main
+package coding101class
 
 import (
 	"fmt"
@@ -18,7 +18,7 @@ func insertion(inp []int) {
 	}
 }
 
-func main() {
+func efg() {
 	arr := []int{1, 9, 2, 8, 3, 7, 4, 6, 5, 3, 4, 5, 6, 1, 2, 2}
 	fmt.Println(arr)
 	insertion(arr)

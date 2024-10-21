@@ -1,11 +1,11 @@
 //Find if given string is palindrom eg: "redivider"
-package main
+package coding101class
 
 import (
 	"fmt"
 )
 
-func main() {
+func fgh() {
 	var s1 string
 	fmt.Printf("Enter the string \n")
 	fmt.Scan(&s1)

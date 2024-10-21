@@ -1,20 +1,11 @@
 //Find if two given strings are anagramms
-package main
+package coding101class
 
 import (
-	"fmt"
-	"os"
 	"strings"
 )
 
-func main() {
-	// commands args option
-	s1 := os.Args[1]
-	s2 := os.Args[2]
-	fmt.Println(anagramm(s1, s2))
-}
-
-func anagramm(s1, s2 string) bool {
+func Anagramm(s1, s2 string) bool {
 	if len(s1) != len(s2) {
 		return false
 	}

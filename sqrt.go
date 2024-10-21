@@ -1,7 +1,6 @@
-package main
+package coding101class
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -13,8 +12,4 @@ func Sqrt(x float64) float64 {
 		// fmt.Println(z)
 	}
 	return z
-}
-
-func main() {
-	fmt.Println(Sqrt(15))
 }
