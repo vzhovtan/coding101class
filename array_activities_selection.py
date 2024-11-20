@@ -5,7 +5,7 @@
   - fin[] - An array that contains finish time of all activities
 """ 
 
-def findMaxActivities(start, fin: list) -> None: 
+def findMaxActivities(start, fin: list) -> list: 
   n = len(fin) 
   result = []
   # The first activity is always selected 

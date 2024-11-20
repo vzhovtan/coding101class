@@ -1,6 +1,6 @@
 '''func to verify if two given strings are anagramm'''
 
-def anagramm(s1, s2):
+def anagramm(s1, s2: str) -> bool:
   if len(s1) != len(s2):
     return False
   for i in s1:

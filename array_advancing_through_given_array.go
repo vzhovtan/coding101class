@@ -1,7 +1,9 @@
-// In the board game, a player has to try to advance through a sequence of positions.
-// Each position has a nonnegative integer associated with it, representing the maximum you can advance from that position in one move.
-// Write a program which takes an array of integers, where array[i] denotes the maximum you can advance from index,
-// and returns whether it is possible to advance to the last index starting from the beginning of the array
+/*
+	In the board game, a player has to try to advance through a sequence of positions.
+	Each position has a nonnegative integer associated with it, representing the maximum you can advance from that position in one move.
+	Write a program which takes an array of integers, where array[i] denotes the maximum you can advance from index,
+	and returns whether it is possible to advance to the last index starting from the beginning of the array
+*/
 
 package coding101class
 
